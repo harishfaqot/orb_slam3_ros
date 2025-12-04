@@ -9,9 +9,11 @@ This package uses ```catkin build```. Tested on Ubuntu 20.04.
 sudo apt install libeigen3-dev
 ```
 ### Pangolin
+Commit version 86eb4975fc4fc8b5d92148c2e370045ae9bf9f5d
 ```
 cd ~
 git clone https://github.com/stevenlovegrove/Pangolin.git
+git commit 86eb4975fc4fc8b5d92148c2e370045ae9bf9f5d
 cd Pangolin
 mkdir build && cd build
 cmake ..
